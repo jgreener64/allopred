@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 14.5544
+HEADER 1  - Drug Score                        : 0.0558
+HEADER 2  - Number of V. Vertices             :    38
+HEADER 3  - Mean alpha-sphere radius          : 3.3279
+HEADER 4  - Mean alpha-sphere SA              : 0.4196
+HEADER 5  - Mean B-factor                     : 0.5040
+HEADER 6  - Hydrophobicity Score              : 34.0769
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Volume Score                      : 4.7692
+HEADER 9  - Real volume (approximation)       : 148.3744
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 9.0000
+HEADER 12 - Number of apolar alpha sphere     :    10
+HEADER 13 - Proportion of apolar alpha sphere : 0.2632
+ATOM   1302   CB PHE A 972      20.814  37.489  10.141  1.00 -0.03           C 0
+ATOM   2031    O LEU A1019      23.268  37.475  14.077  1.00 -0.57           O 0
+ATOM   1305  CD2 PHE A 972      21.576  35.344  11.219  1.00 -0.13           C 0
+ATOM   2077  CG2 VAL A1021      25.396  34.684  11.595  1.00 -0.32           C 0
+ATOM   1303   CG PHE A 972      21.095  36.017  10.067  1.00  0.01           C 0
+ATOM   1258  OE1 GLN A 969      25.767  40.009   9.078  1.00 -0.61           O 0
+ATOM   1239  CD2 LEU A 968      24.638  35.643   7.548  1.00 -0.41           C 0
+ATOM   2075   CB VAL A1021      26.588  35.395  10.927  1.00  0.30           C 0
+ATOM   2071    N VAL A1021      26.789  36.983  12.733  1.00 -0.42           N 0
+ATOM   2010    O ASN A1017      20.038  40.230  14.510  1.00 -0.57           O 0
+ATOM   1318    N LEU A 973      19.257  40.307   9.963  1.00 -0.42           N 0
+ATOM   3410  NH2 ARG A1109      23.502  43.474  11.034  1.00 -0.86           N 0
+ATOM   1319   CA LEU A 973      18.860  41.560  10.599  1.00 -0.05           C 0
+ATOM   1254    O GLN A 969      21.667  40.658   8.055  1.00 -0.57           O 0
+ATOM   1300    C PHE A 972      18.946  39.122  10.490  1.00  0.60           C 0
+ATOM   2007    N ASN A1017      20.572  43.055  15.135  1.00 -0.42           N 0
+ATOM   2052   CG ARG A1020      25.789  40.191  16.156  1.00  0.04           C 0
+ATOM   2024    O GLY A1018      22.318  38.828  17.050  1.00 -0.57           O 0
+ATOM   2048   CA ARG A1020      25.887  38.075  14.686  1.00 -0.26           C 0
+ATOM   1993  CE3 TRP A1016      25.437  43.831  14.657  1.00 -0.24           C 0
+ATOM   1995  CZ3 TRP A1016      26.694  43.412  14.175  1.00 -0.20           C 0
+ATOM   2054   NE ARG A1020      25.714  42.119  17.643  1.00 -0.53           N 0
+ATOM   3409  NH1 ARG A1109      25.454  42.859   9.956  1.00 -0.86           N 0
+ATOM   2676   CA GLY A1061      28.082  41.011  11.445  1.00 -0.03           C 0
+ATOM   1478  OD2 ASP A 983      20.865  42.488  18.736  1.00 -0.80           O 0
+TER
+END
