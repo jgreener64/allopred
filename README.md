@@ -55,9 +55,8 @@ Follow these step to run AlloPred:
 
 ## Other files
 
-* data/data_train.ods is the data used as the training set.
-* data/data_test.ods is the data used as the testing set.
+* dataset.ods is the information on the training and testing sets.
 * svm_model.txt is the optimised SVM built on the whole training set.
-* example contains the inputs and outputs of an example run using the PDB entry with ID 2BRL.
+* example contains the inputs and outputs of an example run using the PDB entry with ID 1FX2.
 
 Thank you for using AlloPred!
