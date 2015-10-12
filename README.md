@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.32016.svg)](http://dx.doi.org/10.5281/zenodo.32016)
+
 # AlloPred
 
 This is the code and training/testing data used at the AlloPred web server, which predicts allosteric pockets on proteins from a PDB format file:
