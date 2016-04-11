@@ -61,4 +61,8 @@ Follow these step to run AlloPred:
 * svm_model.txt is the optimised SVM built on the whole training set.
 * example contains the inputs and outputs of an example run using the PDB entry with ID 1FX2.
 
+## Note
+
+On some systems the normal mode calculation step fails (`More than 6 zero eigenvalues are calculated.`). This appears to be due to an error in `scipy.linalg.eigh` which causes an error in the `calcModes` function of ProDy.
+
 Thank you for using AlloPred!
