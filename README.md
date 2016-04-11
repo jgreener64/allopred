@@ -22,7 +22,7 @@ Please contact Joe Greener (joe.greener13 at imperial.ac.uk) for support, querie
 
 Follow these steps to set up AlloPred - the shell commands are for bash:
 
-1. Download the files and extract them as usual:
+1. Download the files and extract them as usual (or clone the repository):
   ```
   tar -zxvf download.tar.gz
   ```
