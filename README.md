@@ -12,11 +12,13 @@ Downloading this code lets you run AlloPred locally. It should work on all Unix-
 
 Please contact Joe Greener (joe.greener13 at imperial.ac.uk) for support, queries and suggestions. Alternatively, open an issue on GitHub.
 
+
 ## Requirements
 
 * Python 2.7 with the [NumPy](http://www.numpy.org/) and [ProDy](http://prody.csb.pitt.edu/) packages installed.
 * fpocket v2.0, which can be downloaded from [here](http://fpocket.sourceforge.net/). Follow the installation instructions to compile the executables.
 * SVM-light, which can be downloaded from [here](http://svmlight.joachims.org/). Follow the installation instructions to compile the executables.
+
 
 ## Usage
 
@@ -53,20 +55,23 @@ Follow these step to run AlloPred:
   * `in_file.out`: the AlloPred output file containing the input parameters and the values for each pocket in order of AlloPred ranking.
   * `in_file.svm`: the SVM input file in the SVM-light format.
 
+
 ## Other files
 
-* `dataset.ods` is the information on the training and testing sets.
-* `svm_model.txt` is the optimised SVM built on the whole training set.
+* `dataset` contains information on the training and testing sets.
 * `example` contains the inputs and outputs of an example run using the PDB entry with ID 1FX2.
+* `svm_model.txt` is the optimised SVM built on the whole training set.
+
 
 ## Reproducibility
 
 For reference, here are steps to reproduce the results in Figure 3 of the paper (link above):
 
-1. Obtain PDB files from the test set list in `dataset.ods`.
-2. Keep only the chains for each file given in `dataset.ods`.
-3. For each protein carry out steps 2-4 above using the active residues given in `dataset.ods`.
-4. Compare the residues for the top predicted pockets in `in_file.out` to the allosteric residues given in `dataset.ods`.
+1. Obtain PDB files from the test set list in `dataset/test_set.tsv`.
+2. Keep only the chains for each file given in `dataset/test_set.tsv`.
+3. For each protein carry out steps 2-4 above using the active site residues given in `dataset/test_set.tsv`.
+4. Compare the residues for the top predicted pockets in `in_file.out` to the allosteric residues given in `dataset/test_set.tsv`.
+
 
 ## Note
 
