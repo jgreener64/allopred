@@ -10,7 +10,7 @@ The method is described here: Greener, JG and Sternberg, MJE, AlloPred: predicti
 
 Downloading this code lets you run AlloPred locally. It should work on all Unix-based systems. With modification it could be made to work on Windows.
 
-Please contact Joe Greener (joe.greener13 at imperial.ac.uk) for support, queries and suggestions. Alternatively, open an issue on GitHub.
+Please contact Joe Greener (j.greener at ucl.ac.uk) for support, queries and suggestions. Alternatively, open an issue on GitHub.
 
 
 ## Requirements
