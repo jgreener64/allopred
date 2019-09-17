@@ -6,6 +6,8 @@ This is the code and training/testing data used at the AlloPred web server, whic
 
 http://www.sbg.bio.ic.ac.uk/allopred/home
 
+*The server is currently having problems due to configuration issues. We are looking to resolve this.*
+
 The method is described here: Greener, JG and Sternberg, MJE, AlloPred: prediction of allosteric pockets on proteins using normal mode perturbation analysis, *BMC Bioinformatics*, 2015, 16(335). [Link to paper](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0771-1).
 
 Downloading this code lets you run AlloPred locally. It should work on all Unix-based systems. With modification it could be made to work on Windows.
